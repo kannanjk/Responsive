@@ -1,0 +1,29 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+input{
+    position: relative;
+    padding: 10px;
+    border-radius: 50px;
+    width: 250px;
+}
+.sub  {
+    position: relative;
+    left: 170px;
+    border-radius:10px;
+    width: 100px;
+}
+
+.form_div{
+    /* position: relative; */
+    /* gap: 30px; */
+    padding: 10px;
+}
+h5{
+    margin-top: -30px;
+   cursor: pointer;
+   margin-left: 20px;
+}

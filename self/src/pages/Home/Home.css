@@ -1,0 +1,60 @@
+/* desktop format */
+@media only screen and (max-width:1600px) {
+    body {
+        background-color: yellow;
+    }
+   .rightsid{
+    margin-left: 80%;
+   }
+   .posts{
+    width: 50%;
+    margin-left: 20%;
+    background-color: antiquewhite;
+   }
+}
+
+/* tab format */
+@media only screen and (max-width:800px) {
+    body {
+        background-color: blue;
+    }
+    .posts{
+      width: 64%;
+      margin: 0;
+    }
+    .rightsid {
+        margin-left: 64%;
+        width: 36%;
+        background-color: chartreuse;
+    }
+    .leftside{
+        display: none;
+    }
+}
+
+/* mobil format */
+@media only screen and (max-width:610px) {
+    body {
+        background-color: red;
+    }
+    .posts {
+        width: 100%; 
+        margin: 0;
+    }
+
+
+    .rightsid {
+        display: none;
+    }
+
+    .leftside {
+        display: none;
+    }
+}
+
+/* laptop format
+@media only screen and (max-width:1500px) {
+    body {
+        background-color: aqua;
+    }
+} */
